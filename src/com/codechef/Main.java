@@ -16,5 +16,12 @@ public class Main {
          */
 
         System.out.println(Pattern.matches(".s","as"));
+
+        /*
+        quantifiers
+         */
+        // "+" means the occurance can be one or more times; will return true or false according to that;
+
+            System.out.println(Pattern.matches("[abc]+","abc"));
     }
 }
