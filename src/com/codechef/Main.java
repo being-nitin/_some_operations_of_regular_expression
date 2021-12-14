@@ -23,5 +23,12 @@ public class Main {
         // "+" means the occurance can be one or more times; will return true or false according to that;
 
             System.out.println(Pattern.matches("[abc]+","abc"));
+
+            // "*" means occur 0 or more times. and will return true or false according to that:
+
+        System.out.println(Pattern.matches("[abcd]*","bcdbcd"));
+
+
+
     }
 }
