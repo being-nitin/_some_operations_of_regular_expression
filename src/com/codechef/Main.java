@@ -28,7 +28,9 @@ public class Main {
 
         System.out.println(Pattern.matches("[abcd]*","bcdbcd"));
 
+        // []{n} occurs n times where n is the length:
 
+        System.out.println(Pattern.matches("[abcd]{2}","ab"));
 
     }
 }
