@@ -33,7 +33,9 @@ public class Main {
 
         System.out.println(Pattern.matches("[abcd]{3}","abd"));
 
-        //
+        // create a phone number which starts with 7,8,9
+
+        System.out.println(Pattern.matches("[789][0-9]{9}","7988776654"));
 
 
 
