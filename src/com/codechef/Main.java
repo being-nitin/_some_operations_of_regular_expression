@@ -41,6 +41,9 @@ public class Main {
 
         System.out.println(Pattern.matches("[a-zA-Z0-9]{8}","asdfAfgD"));
 
+        // compliment solution
+
+        System.out.println(Pattern.matches("[^789][0-9]{9}","9987654323"));
 
 
 
