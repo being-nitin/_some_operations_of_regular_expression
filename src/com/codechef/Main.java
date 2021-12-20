@@ -37,6 +37,10 @@ public class Main {
 
         System.out.println(Pattern.matches("[789][0-9]{9}","7988776654"));
 
+        // email validation added
+
+        System.out.println(Pattern.matches("[a-zA-Z0-9]{8}","asdfAfgD"));
+
 
 
 
